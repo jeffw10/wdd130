@@ -7,10 +7,10 @@
   --additional-accent-color: #81B29A;
   --heading-font: Caveat, cursive;
   --paragraph-font: Sarabun, sans-serif;
-  --nav-bg-color: #F2CC8F;
-  --nav-link-color: #E07A5F;
+  --nav-background-color: #F2CC8F;
+  --nav-link-color: #3D405B;
   --nav-hover-link-color: #81B29A;
-  --nav-hover-bg-color: #F4F1DE;
+  --nav-hover-background-color: #F4F1DE;
 }
 
 body {
@@ -34,7 +34,7 @@ p {
 }
 
 nav {
-    background-color: var(--nav-bg-color);
+    background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
 }
@@ -52,6 +52,6 @@ nav a:link, nav a:visited {
 
 nav a:hover {
     color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-bg-color);
+    background-color: var(--nav-hover-background-color);
 }
 
