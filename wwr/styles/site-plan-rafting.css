@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Sarabun&display=swap');
+
+:root {
+  --primary-color: #3D405B;
+  --secondary-color: #F2CC8F;
+  --accent-color: #E07A5F;
+  --additional-accent-color: #81B29A;
+  --heading-font: Caveat, cursive;
+  --paragraph-font: Sarabun, sans-serif;
+  --nav-bg-color: #F2CC8F;
+  --nav-link-color: #E07A5F;
+  --nav-hover-link-color: #81B29A;
+  --nav-hover-bg-color: #F4F1DE;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--secondary-color);
+}
+
+p {
+    padding: 20px;
+}
+
+nav {
+    background-color: var(--nav-bg-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-bg-color);
+}
+
