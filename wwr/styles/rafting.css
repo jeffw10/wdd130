@@ -31,13 +31,15 @@ a {
 
 h1 {
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 25px;
+    left: 0;
+    right: 0;
+    width: 330px;
+    margin: 0 auto; 
     padding: 5px;
     padding-right: 8px;
     background-color: rgba(0,0,0,.5);
     color: white;
-    text-align: center;
 }
 
 .hero {
