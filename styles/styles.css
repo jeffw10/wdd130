@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 header, footer, .grid {
     max-width: 840px;
     margin: 0 auto;
@@ -5,7 +11,7 @@ header, footer, .grid {
 
 .grid {
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 45% 55%;
     align-items: center;
 }
 
@@ -25,6 +31,11 @@ nav a {
     display: block;
     padding: 20px;
     display: block;
+    text-decoration: none;
+}
+
+li a {
+    color: white;
     text-decoration: none;
 }
 
@@ -52,15 +63,17 @@ main {
     
 }
 aside {
-    width: 300px;
-    margin: 10px;
-    border: 1px solid black;
-    padding: 5px;
-    background-color: gray;
-    color: whitesmoke;
+    width: 20em;
     text-align: center;
     grid-column: 1;
     grid-row: 1;
+    position: relative;
+}
+
+aside h2 {
+    position: absolute;
+    top: 35px;
+    left: 120px;
 }
 
 aside img {
@@ -72,4 +85,14 @@ footer {
     margin-top: 15px;
     border-top: 2px solid black;
     text-align: center;
+}
+
+/* class selectors */
+
+.box {
+    margin: 1rem; /* equal to the root font size */
+    background-color: gray;
+    color: whitesmoke;
+    border: 1px solid black;
+    padding: 18px;
 }
