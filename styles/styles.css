@@ -59,6 +59,7 @@ p {
 }
 
 main {
+    margin-top: 10px;
     grid-column: 2;
     
 }
@@ -69,6 +70,7 @@ aside {
     grid-row: 1;
     position: relative;
 }
+
 
 aside h2 {
     position: absolute;
@@ -94,5 +96,9 @@ footer {
     background-color: gray;
     color: whitesmoke;
     border: 1px solid black;
-    padding: 18px;
+    padding: 1rem;
+}
+
+.indent {
+    padding-left: 2rem;
 }
