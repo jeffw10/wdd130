@@ -1,0 +1,49 @@
+
+* {
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 450px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: arial;
+    font-size:x-large;
+    text-align: center;
+}
+
+form {
+    display: grid;
+    background-color: lightblue;
+    border-radius: 5px;
+}
+
+label {
+    margin-bottom: 0;
+}
+
+input[type="submit"] {
+    border-radius: 5px;
+    background-color: navy;
+    color: white;
+    width: fit-content;
+    padding: 5px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+p {
+    background: slategray;
+    margin: 10px 50px 0 50px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#submit-button:hover {
+    background-color: violet;
+    color: navy;
+}
