@@ -156,3 +156,67 @@ footer p {
 figcaption {
     text-align: center;
 }
+
+#contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: lightgreen;
+    border-radius: 8px;
+    display: grid;
+    padding: .7rem;
+}
+
+#staff{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+#staff figure {
+    width: 150px;
+    height: 150px;
+    margin: 0; 
+}
+
+#staff img {
+    width: 150px;
+    height: 150px;
+}
+
+#contact-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    background-color: lightgray;
+    padding: 20px;
+    border: 1px solid darkgray;
+    border-radius: 8px;
+}
+
+li {
+    list-style-type: none;
+    font-size: 1.2rem;
+    padding-bottom: 15px;
+}
+
+button {
+    margin: 1rem;
+    background-color: var(--nav-link-color);
+    color: white;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+    width: fit-content; /* Make button fit the width of the text */
+    margin: 0 auto;
+}
+
+button:hover {
+    background-color: var(--nav-hover-link-color);
+}
+
+input, label, textarea, button {
+    margin-bottom: 8px;
+}
+
