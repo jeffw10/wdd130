@@ -61,7 +61,7 @@ a {
     text-decoration: none;
 }
 
-h2 {
+h1, h2 {
     text-align: center;
 }
 
@@ -220,3 +220,42 @@ input, label, textarea, button {
     margin-bottom: 8px;
 }
 
+#trips {
+    display: flex;
+    flex: 1 200px;
+    justify-content: space-around;
+}
+
+.trip img {
+    display: block;
+}
+
+.trip button {
+    margin-top: 20px;
+    display: block;
+}
+
+table {
+    margin: 40px auto;
+    border-collapse: collapse;
+    border: 2px solid gray;
+}
+
+th, td {
+    border: 1px solid gray;
+    padding: 7px;
+}
+
+#questions {
+    text-align: center;
+}
+
+#questions p {
+    display: inline;
+    font-size: x-large;
+    margin-right: 10px;
+}
+
+#questions button {
+    display: inline;
+}
