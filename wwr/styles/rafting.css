@@ -20,6 +20,13 @@
     margin: 0 auto;
 }
 
+#home {
+    background-image: url('../images/homepage.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 header {
     display: grid;
     grid-template-columns: 1fr 1fr 4fr;
@@ -50,6 +57,11 @@ nav a:hover {
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+}
+
+#home h1 {
+    font-family: var(--heading-font);
+    color: white;
 }
 
 p {
@@ -132,7 +144,6 @@ article p {
 }
 
 footer {
-    margin-top: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -161,6 +172,16 @@ figcaption {
     max-width: 600px;
     margin: 0 auto;
     background-color: lightgreen;
+    border-radius: 8px;
+    display: grid;
+    padding: .7rem;
+}
+
+#newsletter-form {
+    max-width: 300px;
+    margin: 0 auto;
+    background-color: lightgray;
+    opacity: 0.9;
     border-radius: 8px;
     display: grid;
     padding: .7rem;
@@ -258,4 +279,38 @@ th, td {
 
 #questions button {
     display: inline;
+}
+
+#ready {
+    text-align: center;
+}
+
+#ready button {
+    display: inline;
+}
+
+#subscribe {
+    text-align: center;
+    font-weight: bold;
+}
+
+#offerings {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+#offerings img {
+    border: 3px solid black;
+}
+
+#offerings figcaption {
+    color: white;
+    font-size: 1.2rem;
+}
+
+#adventure-awaits, #questions, #contact-form {
+    margin-bottom: 50px;
 }
